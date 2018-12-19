@@ -1,12 +1,14 @@
 # MovieRenameTool
 rename movie with google search
+---------------------------------------
+renameTool.zip  
+1.å°‡æ­¤åŒ…çš„å…§å®¹æ”¾åœ¨æ¬²å‘½åçš„é›»å½±è³‡æ–™å¤¾åŒå±¤
 
-renameTool.zip
-1.±N¦¹¥]ªº¤º®e©ñ¦b±ı©R¦Wªº¹q¼v¸ê®Æ§¨¦P¼h
-movie
-|__renameTool.jar
-|__chromeDriver.exe
-|__spider man
-	|__spider man.mkv
-	|__spider man.srt
-2.¶}±Òcmd¡Acd¦Ü¥Ø«e¸ê®Æ§¨¨Ã°õ¦æ java -jar renameTool.jar ©Î°õ¦æ start.bat
+	movie
+	|__renameTool.jar
+	|__chromeDriver.exe
+	|__spider man
+		|__spider man.mkv
+		|__spider man.srt
+
+2.é–‹å•Ÿcmdï¼Œcdè‡³ç›®å‰è³‡æ–™å¤¾ä¸¦åŸ·è¡Œ java -jar renameTool.jar æˆ–åŸ·è¡Œ start.bat
