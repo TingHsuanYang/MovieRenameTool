@@ -11,4 +11,7 @@ renameTool.zip
 		|__spider man.mkv
 		|__spider man.srt
 
-2.開啟cmd，cd至目前資料夾並執行 java -jar renameTool.jar 或執行 start.bat
+2.開啟cmd，cd至目前資料夾並執行 java -jar renameTool.jar 或執行 start.bat  
+  
+※chromeDriver.exe為windows版本，可以從此下載其他版本  
+https://sites.google.com/a/chromium.org/chromedriver/downloads
