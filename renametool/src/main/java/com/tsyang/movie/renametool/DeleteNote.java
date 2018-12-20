@@ -1,4 +1,4 @@
-package movie;
+package com.tsyang.movie.renametool;
 
 import java.io.File;
 import java.util.ArrayList;

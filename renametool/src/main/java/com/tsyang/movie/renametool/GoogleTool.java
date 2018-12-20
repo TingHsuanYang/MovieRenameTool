@@ -1,4 +1,4 @@
-package movie;
+package com.tsyang.movie.renametool;
 
 import java.io.File;
 import java.util.regex.Matcher;
@@ -24,6 +24,7 @@ public class GoogleTool {
 		String year = "";
 
 		String path = ".";
+//		String path = "C:\\YourChromedirverFolderPath";
 //		String path = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", path + File.separator + "chromedriver.exe");
 		System.setProperty("webdriver.chrome.silentOutput", "true");
@@ -71,8 +72,8 @@ public class GoogleTool {
 		return String.format("%s %s (%s)", enName, chName, year);
 	}
 	
-	public static void main(String[] args) {
-		googleSearch("Logan");
-	}
+//	public static void main(String[] args) {
+//		googleSearch("Logan");
+//	}
 
 }
