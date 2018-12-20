@@ -15,7 +15,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RenameMovie {
-	private final static String[] IGNORE_WORD = { "null", "chs", "srt", "torrent", "bluray", "aac", "sparks", "tigole", "mkv", "cht", "eng", "dl", "publichd", "bdrip", "brrip", "rarbg", "hdrip" };
+	private final static String[] IGNORE_WORD = { "vxt", "null", "chs", "srt", "torrent", "bluray", "aac", "sparks", "tigole", "mkv", "cht", "eng", "dl", "publichd", "bdrip", "brrip", "rarbg", "hdrip" };
 
 	/**
 	 * extract keywords from file name
@@ -169,9 +169,7 @@ public class RenameMovie {
 	}
 
 	public static void main(String[] args) {
-		String filePath = "C:\\Users\\Evan\\Desktop\\renameTool\\example - 複製";
-//		String filePath = "F:\\YourMovieFolder";
-//		String filePath = System.getProperty("user.dir");
+		String filePath = "D:\\新增資料夾";
 		List<String> searchList = new ArrayList<String>();
 		// get movie folders
 		File f = new File(filePath);

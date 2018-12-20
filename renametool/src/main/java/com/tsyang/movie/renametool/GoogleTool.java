@@ -35,7 +35,7 @@ public class GoogleTool {
 		WebDriver enDriver = new ChromeDriver(enOptions);
 		enDriver.get("https://www.google.com/search?q=" + keyword + "+movie");
 		try {
-			enName = enDriver.findElement(By.cssSelector(".xpdopen .kp-header div[role='heading']>div:nth-child(1)")).getText().trim();
+			enName = enDriver.findElement(By.cssSelector(".xpdopen .kp-header div.SPZz6b>div:nth-child(1)")).getText().trim();
 		} catch (Exception e) {
 			enDriver.quit();
 			System.out.println("-----cannot find English name-----\n");
@@ -47,7 +47,7 @@ public class GoogleTool {
 		WebDriver chDriver = new ChromeDriver(chOptions);
 		chDriver.get("https://www.google.com/search?q=" + keyword + "+movie");
 		try {
-			chName = chDriver.findElement(By.cssSelector(".xpdopen .kp-header div[role='heading']>div:nth-child(1)")).getText().trim();
+			chName = chDriver.findElement(By.cssSelector(".xpdopen .kp-header div.SPZz6b>div:nth-child(1)")).getText().trim();
 		} catch (Exception e) {
 			chDriver.quit();
 			System.out.println("-----cannot find Chinese name-----\n");
@@ -55,7 +55,7 @@ public class GoogleTool {
 		}
 		// 年
 		try {
-			originYear = chDriver.findElement(By.cssSelector(".xpdopen .kp-header div[role='heading']>div:nth-child(2)")).getText();
+			originYear = chDriver.findElement(By.cssSelector(".xpdopen .kp-header div.SPZz6b>div:nth-child(2)")).getText();
 		} catch (Exception e) {
 			chDriver.quit();
 			System.out.println("-----cannot find release year-----\n");
